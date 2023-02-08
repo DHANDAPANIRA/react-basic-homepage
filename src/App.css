@@ -32,31 +32,33 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.header
-{
-    border-bottom: 2px solid #4AA0D8;
-    background-color: rgba(17, 165, 169, 0.5);
+
+.header {
+  border-bottom: 2px solid #4AA0D8;
+  background-color: rgba(17, 165, 169, 0.5);
 }
 
-.header li a
-{
-    text-decoration: none;
-    color:white;
+.header li a {
+  text-decoration: none;
+  color: white;
 }
-.nav-link:focus, .nav-link:hover{
-  color:yellow;
+
+.nav-link:focus,
+.nav-link:hover {
+  color: yellow;
   font-weight: 700;
 }
+
 html {
   scroll-behavior: smooth;
- }
- 
- a {
+}
+
+a {
   text-decoration: none;
   color: black;
- } 
- 
+}
